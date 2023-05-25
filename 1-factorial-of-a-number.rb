@@ -11,5 +11,5 @@ def RecursiveFunction(number)
 
   a * number
 end
-
-puts RecursiveFunction(20)
+puts "Digite um valor para saber o fatorial"
+puts RecursiveFunction(gets.chomp.to_i)
